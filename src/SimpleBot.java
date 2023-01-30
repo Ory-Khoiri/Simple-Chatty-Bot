@@ -25,7 +25,18 @@ public class SimpleBot {
         int age = ((reminder3 * 70) + (reminder5 * 21) + (reminder7 * 15)) % 105;
 
         //string formatting using %d
-        System.out.printf("Your age is %d, that's a good time to start programming!", age);
+        System.out.printf("Your age is %d, that's a good time to start programming! \n", age);
+
+        // counting number ability
+        System.out.println("Now I will prove to you that I can count to any number you want.");
+        int number = scanner.nextInt();// input number
+
+        for (int i = 0; i <= number; i++) {
+            System.out.printf("%d!\n", i); // print loop 0 <= input number
+        }
+
+        System.out.println("Completed, have a nice day!");
+
 
 
     }
